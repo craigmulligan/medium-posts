@@ -1,6 +1,6 @@
 {
   "name": "medium-posts",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "a medium-posts plate for node modules",
   "main": "./src/index.js",
   "scripts": {
@@ -8,11 +8,12 @@
     "test:watch": "jest --watch",
     "lint": "eslint './**/*.js'",
     "prettier": "prettier --no-semi --single-quote --write './**/*.js'",
-    "prettier-check": "prettier-check --no-semi --single-quote --write './**/*.js'"
+    "prettier-check": "prettier-check --no-semi --single-quote --write './**/*.js'",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hobochild/medium-posts.git"
+    "url": "https://github.com/hobochild/medium-posts.git"
   },
   "keywords": [
     "medium",
@@ -26,15 +27,18 @@
   },
   "homepage": "https://github.com/hobochild/medium-posts#readme",
   "dependencies": {
-    "eslint": "^4.14.0",
-    "jest": "^22.0.4",
-    "prettier": "^1.9.2",
-    "prettier-check": "^2.0.0"
+    "axios": "^0.17.1"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^2.9.0"
+    "eslint": "^4.14.0",
+    "eslint-config-prettier": "^2.9.0",
+    "jest": "^22.0.4",
+    "prettier": "^1.9.2",
+    "prettier-check": "^2.0.0",
+    "semantic-release": "^11.0.2"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverage": true
   }
 }
