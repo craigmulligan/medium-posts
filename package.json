@@ -1,0 +1,40 @@
+{
+  "name": "medium-posts",
+  "version": "1.0.0",
+  "description": "a medium-posts plate for node modules",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint './**/*.js'",
+    "prettier": "prettier --no-semi --single-quote --write './**/*.js'",
+    "prettier-check": "prettier-check --no-semi --single-quote --write './**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobochild/medium-posts.git"
+  },
+  "keywords": [
+    "medium",
+    "latestPosts",
+    "api"
+  ],
+  "author": "hobochild",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hobochild/medium-posts/issues"
+  },
+  "homepage": "https://github.com/hobochild/medium-posts#readme",
+  "dependencies": {
+    "eslint": "^4.14.0",
+    "jest": "^22.0.4",
+    "prettier": "^1.9.2",
+    "prettier-check": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

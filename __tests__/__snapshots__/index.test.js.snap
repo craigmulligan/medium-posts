@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.getUser should return user with properties 1`] = `
+Object {
+  "allowNotes": 1,
+  "backgroundImageId": "",
+  "bio": "",
+  "createdAt": 1462711206107,
+  "facebookAccountId": "10153358094910666",
+  "imageId": "0*UpyzJf7LPK3u_tIh.",
+  "isNsfw": false,
+  "lastPostCreatedAt": 1515117924656,
+  "mediumMemberAt": 0,
+  "name": "Craig Andrew Mulligan",
+  "twitterScreenName": "",
+  "type": "User",
+  "userId": "38725f58c664",
+  "username": "hobochild",
+}
+`;
